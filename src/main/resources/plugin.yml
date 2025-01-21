@@ -1,6 +1,0 @@
-name: DeathDrop
-version: '${project.version}'
-main: com.blbilink.mc.death_drop.DeathDrop
-api-version: '1.20'
-description: A plugin for managing player death drops
-author: blbilink 
