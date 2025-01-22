@@ -6,7 +6,7 @@ public class DeathDrop extends JavaPlugin {
     @Override
     public void onEnable() {
         // 注册事件监听器
-        getServer().getPluginManager().registerEvents(new DeathDropListener(), this);
+        getServer().getPluginManager().registerEvents(new DeathDropListener(this), this);
         getLogger().info("DeathDrop plugin has been enabled!");
     }
 
